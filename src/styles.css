@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+.texto{
+color:  #5A5C69;
+};
+.fundo{
+background-color:  #F7F8FB;
+};
+.cabecalho-rodape{
+background-color:  #FFFFFF;
+};
+:host .botao{
+color:  #4E73DF !important;
+}
+:host :hover(.active){
+    color: #1CC88A !important;
+};
+.cabecalho-card{
+background-color: #F8F9FC !important;
+};
+.sombra-card{
+    background-color:  rgba(58, 59, 69, .15)
+};
+.bordas-tabela{
+    background-color: #E3E6F0;
+}
+.titulo{
+    color:green;
+}
+.subtitulo{
+    color: blue;
+}
+.tituloTela{
+    padding: 10px 0 10px 0;
+}
+.card-margem{
+    margin-bottom: 25px; 
+}
+.card {
+    border: 1px solid #E3E6F0 !important;
+    border-radius: .25rem;
+}
+
+
+.tm-fixo{
+    max-height: 270px;
+    overflow-y: auto!important;
+}
+.card-body {
+    min-height: auto !important;
+}
+.just{
+    justify-content: center !important;
+}

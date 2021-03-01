@@ -1,0 +1,20 @@
+
+<div class="card col-md-12 text-alight fundo ">
+  <h4 class="tituloTela">Veículos</h4> 
+  <div class="card card-margem  shadow-lg p-1 mb-5 bg-white rounded tm-fixo">
+    <div class="card-body bg-light">
+      <h5 class="card-title subtitulo">Marcas</h5>
+    </div>
+    <div class="tm-fixo">
+        <marcas (abreMarca)="liberaMarca($event)"></marcas>
+    </div>
+  </div>
+  <div class="card  shadow-lg p-1 mb-5 bg-white rounded tm-fixo" >
+    <div class="card-body bg-light">
+      <h5 class="card-title subtitulo">Modelo</h5>
+    </div>
+    <div class="tm-fixo">
+        <modelos [codigoMarca]="codigoMarca"></modelos>
+    </div>
+  </div>
+</div>
